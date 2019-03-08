@@ -33,7 +33,7 @@ public class CartServiceImpl implements CartService {
             int temp = bookRepo.updateAmount(newAmount, bookname);
             CartEntity cartitem = new CartEntity();
             System.out.println(username+bookname);
-            cartitem.setUserbook(username+bookname);
+            cartitem.setUserbook(username+"-"+bookname);
             cartitem.setUsername(username);
             cartitem.setBookname(bookname);
             cartitem.setAuthor(book.getAuthor());
@@ -46,6 +46,7 @@ public class CartServiceImpl implements CartService {
 
     public List<CartEntity> showCart(String username) {
         List<CartEntity> list = cartRepo.queryByUsername(username);
+        System.out.println(username);
         System.out.println("booklist size:"+list.size());
         return list;
     }

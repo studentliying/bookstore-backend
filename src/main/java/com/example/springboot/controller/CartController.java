@@ -35,9 +35,12 @@ public class CartController {
     }
 
     @RequestMapping(value = "/showcart")
-    private List<CartEntity> processShowcart(@RequestParam("username") String username,
-                                             HttpServletResponse response, HttpSession session) {
-        System.out.println("request success");
+    private List<CartEntity> processShowcart(HttpServletResponse response, HttpSession session) {
+        //System.out.println("request success");
+        String username = "";
+        if (session.getAttribute("user") != null)
+            username = (((UserEntity) session.getAttribute("user")).getUsername());
+        System.out.println(username);
         return cartService.showCart(username);
     }
 

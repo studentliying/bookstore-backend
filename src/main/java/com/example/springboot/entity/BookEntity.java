@@ -16,6 +16,7 @@ public class BookEntity {
     private double price;
     private String kind;
     private String tag;
+    private String src;
 
     public String getBookname() {
         return bookname;
@@ -73,6 +74,10 @@ public class BookEntity {
         this.tag = tag;
     }
 
+    public String getSrc() { return src; }
+
+    public void setSrc(String src) { this.src = src; }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -90,6 +95,6 @@ public class BookEntity {
     @Override
     public int hashCode() {
 
-        return Objects.hash(bookname, author, language, amount, price, kind, tag);
+        return Objects.hash(bookname, author, language, amount, price, kind, tag, src);
     }
 }

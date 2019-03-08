@@ -10,11 +10,11 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface UserDao extends MongoRepository<UserEntity, String> {
+public interface UserDao extends JpaRepository<UserEntity, String> {
 
-//    @Query("select user from UserEntity user where user.username = :username")
-//    List<UserEntity> queryByUsername(@Param("username") String username);
-//
-//    <S extends UserEntity> S save (S singleuser);
+   @Query("select user from UserEntity user where user.username = :username")
+   List<UserEntity> queryByUsername(@Param("username") String username);
+
+    <S extends UserEntity> S save (S singleuser);
     UserEntity findByUsername(String username);
 }

@@ -9,7 +9,8 @@ import java.util.List;
 import java.util.Objects;
 
 
-@Document(collection = "user")
+@Entity
+@Table(name="user")
 public class UserEntity {
     @Id
     private String id;

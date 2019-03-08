@@ -26,5 +26,8 @@
         <property name="tag">
             <column name="Tag" sql-type="varchar(45)" length="45" not-null="true"/>
         </property>
+        <property name="src">
+            <column name="Src" sql-type="varchar(256)" length="256" not-null="true"/>
+        </property>
     </class>
 </hibernate-mapping>

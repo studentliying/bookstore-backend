@@ -23,7 +23,7 @@ public class UserController {
     private String processlLogon(@RequestParam("name") String name,
                                  @RequestParam("pwd") String pwd,
                                  HttpServletResponse response, HttpSession session) {
-
+        System.out.println("hello");
         String check = userService.search(name, pwd);
         if (!check.equals("Success")) {
             return check;
