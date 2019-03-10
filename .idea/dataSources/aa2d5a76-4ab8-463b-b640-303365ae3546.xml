@@ -1056,19 +1056,19 @@
     </column>
     <column id="258" parent="236" name="amount">
       <Position>5</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="259" parent="236" name="price">
       <Position>6</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>double|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="260" parent="236" name="sum">
       <Position>7</Position>
-      <DataType>varchar(45)|0</DataType>
+      <DataType>double|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>

@@ -22,9 +22,9 @@ public class OrderController {
     @RequestMapping(value = "/submitOrder")
     private String processSubmitOrder(@RequestParam("time") String time,
                                       @RequestParam("bookname") String bookname,
-                                      @RequestParam("amount") String amount,
-                                      @RequestParam("price") String price,
-                                      @RequestParam("sum") String sum,
+                                      @RequestParam("amount") int amount,
+                                      @RequestParam("price") double price,
+                                      @RequestParam("sum") double sum,
                                     HttpServletResponse response, HttpSession session) {
         String username="";
         if (session.getAttribute("user")!=null) {

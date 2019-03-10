@@ -15,7 +15,7 @@ public class OrderServiceImpl implements OrderService {
     private OrderDao orderRepo;
 
     @Transactional
-    public String addOrder(String time, String username, String bookname, String amount, String price, String sum){
+    public String addOrder(String time, String username, String bookname, int amount, double price, double sum){
         OrderEntity orderitem = new OrderEntity();
         orderitem.setSubmittime(time);
         orderitem.setUsername(username);

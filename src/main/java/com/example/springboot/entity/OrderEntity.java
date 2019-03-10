@@ -10,9 +10,9 @@ public class OrderEntity {
     private String submittime;
     private String username;
     private String bookname;
-    private String amount;
-    private String price;
-    private String sum;
+    private int amount;
+    private double price;
+    private double sum;
 
     @Id
     @GeneratedValue
@@ -57,31 +57,31 @@ public class OrderEntity {
 
     @Basic
     @Column(name = "amount")
-    public String getAmount() {
+    public int getAmount() {
         return amount;
     }
 
-    public void setAmount(String amount) {
+    public void setAmount(int amount) {
         this.amount = amount;
     }
 
     @Basic
     @Column(name = "price")
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
     @Basic
     @Column(name = "sum")
-    public String getSum() {
+    public double getSum() {
         return sum;
     }
 
-    public void setSum(String sum) {
+    public void setSum(double sum) {
         this.sum = sum;
     }
 
