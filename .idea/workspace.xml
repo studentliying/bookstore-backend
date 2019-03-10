@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5dde8d1-bc3e-4a61-9933-539f054383d3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/client.policy" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rmi/server/OrderShipper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rmi/server/RmiClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rmi/server/RmiOrder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rmi/server/client.policy" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jndi.properties" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa2d5a76-4ab8-463b-b640-303365ae3546.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/aa2d5a76-4ab8-463b-b640-303365ae3546.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/iteration3.iml" afterPath="$PROJECT_DIR$/iteration3.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/SpringbootApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/SpringbootApplication.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/controller/OrderController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/controller/OrderController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/entity/OrderEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/entity/OrderEntity.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/service/OrderService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/service/OrderService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/service/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/service/OrderServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/SpringbootApplication.class" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot/SpringbootApplication.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/controller/OrderController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot/controller/OrderController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/entity/OrderEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot/entity/OrderEntity.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/service/OrderService.class" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot/service/OrderService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/service/OrderServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot/service/OrderServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/client.policy" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -109,16 +92,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.policy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client.policy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -276,14 +249,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookstore-backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookstore-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -539,7 +504,7 @@
       <workItem from="1552053689033" duration="3852000" />
       <workItem from="1552094550862" duration="8848000" />
       <workItem from="1552187940511" duration="11493000" />
-      <workItem from="1552204663986" duration="50000" />
+      <workItem from="1552204663986" duration="411000" />
     </task>
     <task id="LOCAL-00001" summary="fix some bugs">
       <created>1552060274813</created>
@@ -552,11 +517,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222529000" />
+    <option name="totallyTimeSpent" value="222890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
